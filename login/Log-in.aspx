@@ -15,15 +15,15 @@
      </div>
         <h2>Learn more about Dota</h2><br />
          <ul><li><a href="../admin/Default.aspx" style="color: red">Home</a>&nbsp; |&nbsp; <a href="../HeroAll.aspx" style="color: red">View All Hero</a>&nbsp; |&nbsp;<a href="../Search.aspx" style="color:red">Search</a>&nbsp; |&nbsp; <a href="../About.aspx" style="color: red">About Us</a>&nbsp; |&nbsp; <a href="../Contact.aspx" style="color: red">Contact Us</a>&nbsp;|&nbsp; <a href="Log-in.aspx" style="color: red">Admin</a>&nbsp;
-             </li
-             </li></ul>
+             </li>
+             </ul>
       </div> 
         <br />
         <br />
     <div>
     
-        <h6><asp:Login ID="Login1" runat="server" >
-        </asp:Login></h6>
+        <h7><asp:Login ID="Login1" runat="server" >
+        </asp:Login></h7>
     
     </div>
     </form>

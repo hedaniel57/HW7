@@ -76,11 +76,14 @@ table{
 
 }
  
-.footer{
+.footer{background-color:#B8B7B7;
+        padding:0px;
+        margin:auto;
+        width:600px;
         text-align:center; 
         font-size:14px;
         font-family:"Times New Roman";
-        color:white;
+        color:black;
 
 }
  
@@ -153,5 +156,12 @@ h5{
     font-size:20px;
     color:white;
     
-        padding-left:40%;
+        padding-left:45%;
+}
+
+h6{
+    font-size:20px;
+    color:white;
+    
+        padding-left:30%;
 }

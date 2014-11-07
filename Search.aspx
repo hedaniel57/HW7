@@ -25,13 +25,13 @@
         <br />
         <% If Not IsPostBack Then%>
 
-        <h5> Search for a hero by name: &nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="tbTool" runat="server" AutoPostBack="True"></asp:TextBox></h5>
+        <h6> Search for a hero by name: &nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="tbTool" runat="server" AutoPostBack="True"></asp:TextBox></h6>
         
         <% Else%>
         <br />
-        <h5>Search for another hero by name:&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="tbTool2" runat="server" AutoPostBack="True"></asp:TextBox></h5>
+        <h6>Search for another hero by name:&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="tbTool2" runat="server" AutoPostBack="True"></asp:TextBox></h6>
         <br />
         <br />
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Hero_ID" DataSourceID="SqlDataSource1">

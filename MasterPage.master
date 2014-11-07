@@ -53,10 +53,12 @@
         </asp:ContentPlaceHolder>
     </div>
         <div class="footer"> 
-        <br />
-        <br />
-        <br />
+        <br /> 
+        <br /> 
+         
         @ 2014 6k183 Qie He from Software Design and Development
+        <br />
+        <br />
     </div>
     </form>
 </body>

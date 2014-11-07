@@ -42,6 +42,7 @@
                 <asp:Parameter Name="Hero_ID" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
+            <h6><asp:Label ID="lbl_error" runat="server" Text="Please enter at least Hero_Name, Hero_Type and Position"></asp:Label></h6>
         <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="Hero_ID" DataSourceID="SqlDataSource1" DefaultMode="Insert" Height="50px" Width="125px">
             <Fields>
                 <asp:BoundField DataField="Hero_Name" HeaderText="Hero_Name" SortExpression="Hero_Name" />
@@ -55,14 +56,18 @@
         </asp:DetailsView>
         <br />
             </div>
-    <div>
-    
-    </div>
+        <div>
+            <h4><asp:Button ID="btn_back" runat="server" Text="Back" Height="19px" style="margin-left: 0px" /></h4>
+        </div>
     </form>
     
     <div class="footer"> 
-        <br />
-        <br />
-        <br />
+        <br /> 
+        <br /> 
+         
         @ 2014 6k183 Qie He from Software Design and Development
-    l>
+        <br />
+        <br />
+        </div>
+        </body>
+    </html>

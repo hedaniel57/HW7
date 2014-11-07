@@ -14,7 +14,7 @@
     <h1>Dota2 Heroes</h1>
      </div>
         <h2>Learn more about Dota</h2><br />
-         <ul><li><a href="Default.aspx" style="color: red">Home</a>&nbsp; |&nbsp; <a href="HeroAll.aspx" style="color: red">View All Hero</a>&nbsp; |&nbsp;<a href="Search.aspx" style="color:red">Search</a>&nbsp; |&nbsp; <a href="About.aspx" style="color: red">About Us</a>&nbsp; |&nbsp; <a href="Contact.aspx" style="color: red">Contact Us</a>&nbsp;|&nbsp; <a href="../login/log-in.aspx" style="color: red">Admin</a>&nbsp; |&nbsp;<a href="../login/Log-in.aspx" style="color: red">Log-in</a>
+         <ul><li><a href="Default.aspx" style="color: red">Home</a>&nbsp; |&nbsp; <a href="HeroAll.aspx" style="color: red">View All Hero</a>&nbsp; |&nbsp;<a href="Search.aspx" style="color:red">Search</a>&nbsp; |&nbsp; <a href="About.aspx" style="color: red">About Us</a>&nbsp; |&nbsp; <a href="Contact.aspx" style="color: red">Contact Us</a>&nbsp;|&nbsp; <a href="./login/Log-in.aspx" style="color: red">Admin</a>&nbsp;
              </li></ul>
       </div> 
         <br />
@@ -44,10 +44,12 @@
     </form>
 
     <div class="footer"> 
-        <br />
-        <br />
-        <br />
+        <br /> 
+        <br /> 
+         
         @ 2014 6k183 Qie He from Software Design and Development
+        <br />
+        <br />
     </div>
 </body>
 </html>

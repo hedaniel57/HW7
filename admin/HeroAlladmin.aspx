@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="HeroAll.aspx.vb" Inherits="HeroAll" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="HeroAlladmin.aspx.vb" Inherits="HeroAll" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
 </head>
-    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 <body>
     <form id="form1" runat="server">
     <div>
@@ -14,7 +14,7 @@
     <h1>Dota2 Heroes</h1>
      </div>
         <h2>Learn more about Dota</h2><br />
-         <ul><li><a href="Default.aspx" style="color: red">Home</a>&nbsp; |&nbsp; <a href="HeroAll.aspx" style="color: red">View All Hero</a>&nbsp; |&nbsp;<a href="Search.aspx" style="color:red">Search</a>&nbsp; |&nbsp; <a href="About.aspx" style="color: red">About Us</a>&nbsp; |&nbsp; <a href="Contact.aspx" style="color: red">Contact Us</a>&nbsp;|&nbsp; <a href="admin.aspx" style="color: red">Admin</a>&nbsp; |&nbsp;<a href="Log-in.aspx" style="color: red">Log-in</a>
+         <ul><li><a href="../Default.aspx" style="color: red">Home</a>&nbsp; |&nbsp; <a href="HeroAlladmin.aspx" style="color: red">View All Hero</a>&nbsp; |&nbsp;<a href="../Search.aspx" style="color:red">Search</a>&nbsp; |&nbsp; <a href="../About.aspx" style="color: red">About Us</a>&nbsp; |&nbsp; <a href="../Contact.aspx" style="color: red">Contact Us</a>&nbsp;|&nbsp; <a href="../login/Log-in.aspx" style="color: red">Admin</a>&nbsp; |&nbsp;<a href="../login/Log-in.aspx" style="color: red">Log-in</a>
              </li></ul>
       </div> 
         <br />
@@ -28,7 +28,7 @@
                 <asp:BoundField DataField="Hero_Name" HeaderText="Hero_Name" SortExpression="Hero_Name" />
                 <asp:BoundField DataField="Hero_Type" HeaderText="Hero_Type" SortExpression="Hero_Type" />
                 <asp:BoundField DataField="Position" HeaderText="Position" SortExpression="Position" />
-                <asp:HyperLinkField DataNavigateUrlFields="Hero_ID" DataNavigateUrlFormatString="HeroDetail.aspx?Hero_ID={0}" Text="Select" />
+                <asp:HyperLinkField DataNavigateUrlFields="Hero_ID" DataNavigateUrlFormatString="HeroDetailadmin.aspx?Hero_ID={0}" Text="Select" />
             </Columns>
         </asp:GridView>
         

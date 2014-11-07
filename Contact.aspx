@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
 </head>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
 <body>
     <form id="form1" runat="server">
     <div>
@@ -14,8 +14,8 @@
     <h1>Dota Heroes</h1>
      </div>
         <h2>Learn more about Dota</h2><br />
-         <h3><ul><li><a href="Default.aspx" style="color: #696969">Home</a>&nbsp; |&nbsp; <a href="HeroAll.aspx" style="color: #696969">View All Hero</a>&nbsp; |&nbsp;<a href="Search.aspx" style="color: #696969">Search</a>&nbsp; |&nbsp; <a href="About.aspx" style="color: #696969">About Us</a>&nbsp; |&nbsp; <a href="Contact.aspx" style="color: #696969">Contact Us</a>&nbsp; |&nbsp;<a href="Log-in.aspx" style="color: #696969">Log-in</a>
-             </li></ul></h3>
+         <ul><li><a href="Default.aspx" style="color: red">Home</a>&nbsp; |&nbsp; <a href="HeroAll.aspx" style="color: red">View All Hero</a>&nbsp; |&nbsp;<a href="Search.aspx" style="color:red">Search</a>&nbsp; |&nbsp; <a href="About.aspx" style="color: red">About Us</a>&nbsp; |&nbsp; <a href="Contact.aspx" style="color: red">Contact Us</a>&nbsp;|&nbsp; <a href=".login/Log-in.aspx" style="color: red">Admin</a>&nbsp; |&nbsp;<a href=".login/Log-in.aspx" style="color: red">Log-in</a>
+             </li></ul>
       </div> 
         <br />
         <br />

@@ -1,30 +1,8 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">Dota2 Heroes
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+   
+</asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    <div>
-    <h1>Dota Heroes</h1>
-     </div>
-        <h2>Learn more about Dota</h2><br />
-         <h3><ul><li><a href="Default.aspx" style="color: #696969">Home</a>&nbsp; |&nbsp; <a href="HeroAll.aspx" style="color: #696969">View All Hero</a>&nbsp; |&nbsp;<a href="Search.aspx" style="color: #696969">Search</a>&nbsp; |&nbsp; <a href="About.aspx" style="color: #696969">About Us</a>&nbsp; |&nbsp; <a href="Contact.aspx" style="color: #696969">Contact Us</a>&nbsp; |&nbsp;<a href="Log-in.aspx" style="color: #696969">Log-in</a>
-             </li></ul></h3>
-      </div> 
-        <br />
-        <br />
-    <div>
-    
-    </div>
-    </form>
-
-    <div class="footer"> 
-        @ 2014 6k183 Qie He from Software Design and Development
-    </div>
-</body>
-</html>

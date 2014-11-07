@@ -1,0 +1,59 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+        </title>
+</head>
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
+<body>
+    <form id="form1" runat="server">
+    
+        <div >
+            <h1>Dota2 Hero</h1>
+            <h2>Learn More about Dota 2</h2>
+            </div>
+        <div id="right_header">
+            <asp:Image ID="Image1" runat="server" Height="250px" ImageUrl="~/css/dota2.jpg" />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div>
+        <ul><li>
+            <asp:HyperLink ID="linkhome" runat="server" NavigateUrl="~/Default.aspx" style="color: red">Home</asp:HyperLink>|&nbsp; <a href="HeroAll.aspx" style="color: red">View All Hero</a>&nbsp; |&nbsp;<a href="Search.aspx" style="color:red">Search</a>&nbsp; |&nbsp; <a href="About.aspx" style="color: red">About Us</a>&nbsp; |&nbsp; <a href="Contact.aspx" style="color: red">Contact Us</a>&nbsp;|&nbsp; <a href="admin.aspx" style="color: red">Admin</a>&nbsp; |&nbsp;<a href="Log-in.aspx" style="color: red">Log-in</a>
+             </li></ul>
+            </div>
+        
+        <div id="main">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="footer"> 
+        <br />
+        <br />
+        <br />
+        @ 2014 6k183 Qie He from Software Design and Development
+    </div>
+    </form>
+</body>
+</html>
